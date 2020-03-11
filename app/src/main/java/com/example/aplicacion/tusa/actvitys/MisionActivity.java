@@ -31,13 +31,13 @@ public class MisionActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recycler_mision);
         Mision m1 = new Mision("mision 1","esta es la descipcion de la mision 1", Dificultad.FACIL, Tipo.CAZA,
-                new ArrayList<String>(),R.mipmap.facil,R.mipmap.facil);
+                new ArrayList<String>(),R.mipmap.pergamino,R.mipmap.facil);
         Mision m2 = new Mision("mision 2","esta es la descipcion de la mision 2", Dificultad.FACIL, Tipo.CAZA,
-                new ArrayList<String>(),R.mipmap.facil,R.mipmap.facil);
+                new ArrayList<String>(),R.mipmap.pergamino,R.mipmap.facil);
         Mision m3 = new Mision("mision 3","esta es la descipcion de la mision 3", Dificultad.FACIL, Tipo.CAZA,
-                new ArrayList<String>(),R.mipmap.facil,R.mipmap.facil);
+                new ArrayList<String>(),R.mipmap.pergamino,R.mipmap.facil);
         Mision m4 = new Mision("mision 4","esta es la descipcion de la mision 4", Dificultad.FACIL, Tipo.CAZA,
-                new ArrayList<String>(),R.mipmap.facil,R.mipmap.facil);
+                new ArrayList<String>(),R.mipmap.pergamino,R.mipmap.facil);
         misiones.add(m1);
         misiones.add(m2);
         misiones.add(m3);
