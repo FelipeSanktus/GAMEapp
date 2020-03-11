@@ -2,6 +2,7 @@ package com.example.aplicacion.tusa.adaptadores;
 
 import android.content.Intent;
 import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,7 +41,7 @@ public class AdaptadorMain  extends RecyclerView.Adapter<AdaptadorMain.MyViewHol
                     Toast.makeText(v.getContext(),"CAMBIANDO:"+getAdapterPosition(),Toast.LENGTH_LONG).show();
                     Intent intent = null;
                     try {
-
+                        Log.w("RUTA",listaMenu.get(getAdapterPosition()).getRuta());
                         intent = new Intent(v.getContext(), Class.forName(listaMenu.get(getAdapterPosition()).getRuta()));
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();

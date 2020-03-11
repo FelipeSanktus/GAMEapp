@@ -26,9 +26,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         recyclerView = (RecyclerView) findViewById(R.id.recycler_menu);
         Menu m = new Menu("Mundo",R.mipmap.facil,MundoActivity.class.getName());
-        Menu m2 = new Menu("Mundo2",R.mipmap.facil,"com.example.aplicacion.tusa.activitys.MundoActivity");
+        Menu m2 = new Menu("Mundo2",R.mipmap.facil,MundoActivity.class.getName());
+        Menu m3 = new Menu("Misiones",R.mipmap.facil,MisionActivity.class.getName());
         listaMenu.add(m);
         listaMenu.add(m2);
+        listaMenu.add(m3);
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         recyclerView.setHasFixedSize(true);
