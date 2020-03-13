@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gris">
+
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:textAlignment="center"
+        android:text="titulo"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/amarillo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/lblDescripcion"
+        android:textAlignment="center"
+        android:text="Descripcion"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Etapas:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Etapa1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Etapa2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="5dp"
+        android:text="Etapa3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/aceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aceptar"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/image"
+            />
+
+        <Button
+            android:id="@+id/ignorar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ignorar"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@+id/image"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
