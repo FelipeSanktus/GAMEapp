@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".actvitys.MisionActivity"></activity>
+        <activity android:name=".actvitys.PersonajeActivity"/>
         <activity android:name=".actvitys.MundoActivity" />
         <activity android:name=".actvitys.MainActivity">
             <intent-filter>

@@ -2,11 +2,9 @@ package com.example.aplicacion.tusa.actvitys;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
-import android.os.MemoryFile;
 
 import com.example.aplicacion.tusa.R;
 import com.example.aplicacion.tusa.adaptadores.AdaptadorMain;
@@ -28,9 +26,11 @@ public class MainActivity extends AppCompatActivity {
         Menu m = new Menu("Mundo",R.mipmap.facil,MundoActivity.class.getName());
         Menu m2 = new Menu("Mundo2",R.mipmap.facil,MundoActivity.class.getName());
         Menu m3 = new Menu("Misiones",R.mipmap.facil,MisionActivity.class.getName());
+        Menu m4 = new Menu("Personaje",R.mipmap.facil, PersonajeActivity.class.getName());
         listaMenu.add(m);
         listaMenu.add(m2);
         listaMenu.add(m3);
+        listaMenu.add(m4);
         // use this setting to improve performance if you know that changes
         // in content do not change the layout size of the RecyclerView
         recyclerView.setHasFixedSize(true);
